@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: gx2-teste
+logging:
+  level:
+    org.hibernate.SQL: debug
+
+springdoc:
+  api-docs:
+    path: /doc/api-docs
+  swagger-ui:
+    path: /doc/documentation.html
+
